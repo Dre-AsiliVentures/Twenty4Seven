@@ -1,4 +1,4 @@
-# mr_strat_deploy_v2.py
+# backend/mr_strat_deploy_v2.py
 from binance import Client
 from dotenv import load_dotenv
 import datetime
