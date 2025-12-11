@@ -26,6 +26,7 @@ class BinanceExecution:
         self.currentDatetime = datetime.datetime.now()
 
         self.target_sell_price = None
+        self.buy_bal = None
         
         # Fetch Data
         self.df = self.datafetch(interval)
