@@ -24,6 +24,8 @@ class BinanceExecution:
         self.token = token
         self.symbol = f"{token}USDT"
         self.currentDatetime = datetime.datetime.now()
+
+        self.target_sell_price = None
         
         # Fetch Data
         self.df = self.datafetch(interval)
